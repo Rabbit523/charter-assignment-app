@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Retailer Rewards Program Simulator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project simulates a retailer's rewards program using ReactJS. It calculates the reward points earned by each customer based on their purchases over a three-month period.
+
+## Program Rules
+
+1. A retailer offers a rewards program to its customers, awarding points based on each recorded purchase.
+2. A customer receives 2 points for every dollar spent over $100 in each transaction, plus 1 point for every dollar spent between $50 and $100 in each transaction. (e.g., a $120 purchase equals 2*$20 + 1*$50 = 90 points)
+3. Given a record of every transaction during a three-month period, the program calculates the reward points earned for each customer per month and total.
+
+## Implementation
+
+The solution is implemented using ReactJS from scratch without using TypeScript. It simulates an asynchronous API call to fetch data.
+
+A mock data set has been created to best demonstrate the solution.
 
 ## Available Scripts
 
